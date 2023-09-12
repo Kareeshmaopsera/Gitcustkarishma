@@ -1,0 +1,19 @@
+<settings>
+...
+  <servers>
+...
+  <server>
+    <id>docker-repo.example.com:8080</id>
+    <username>nikhilopsera/nikiop</username>
+    <password>Nikhil.l66@6Dockerhub</password>
+  </server>
+  <server>
+    <username>nikhilop</username>
+    <password>Nikhil.Dockerhub</password>
+  </server>
+    
+</servers>
+...
+  </servers>
+...
+</settings>
