@@ -1,0 +1,620 @@
+{
+  "project": {
+    "name": "",
+    "project_id": ""
+  },
+  "workflow": {
+    "source": {
+      "secondary_branches": [],
+      "name": "",
+      "service": "github",
+      "accountId": "64eebacdcbaeb7006d0aabf5",
+      "workspace": "",
+      "workspaceName": "",
+      "repository": "Gitcustkarishma",
+      "repoId": "Kareeshmaopsera/Gitcustkarishma",
+      "projectId": "Kareeshmaopsera/Gitcustkarishma",
+      "gitUrl": "https://github.com/Kareeshmaopsera/Gitcustkarishma",
+      "sshUrl": "git@github.com:Kareeshmaopsera/Gitcustkarishma.git",
+      "branch": "main",
+      "key": "",
+      "trigger_active": true,
+      "isPushEvent": true,
+      "isPrEvent": false,
+      "isMonitored": false,
+      "prCreatedEvent": true,
+      "prApprovedEvent": false,
+      "gitExportEnabled": true,
+      "gitExportPath": "test",
+      "dynamicSettings": false,
+      "allowDynamicSettingsInUi": false,
+      "enableBranchSwitch": false
+    },
+    "schedule": {
+      "start_date": null,
+      "end_date": null,
+      "frequency": ""
+    },
+    "last_step": {
+      "failed": {
+        "step_id": "6221f396431aee0012b42db4",
+        "activity_id": "651b07674c41df0255f589ee",
+        "status": "failure",
+        "updatedAt": "2023-10-02T18:09:43.040Z"
+      },
+      "status": "stopped",
+      "step_id": "6221f396431aee0012b42db4",
+      "check_count": 4
+    },
+    "last_run": {
+      "completed": "2023-10-02T18:09:43.177Z",
+      "run_count": 195,
+      "status": "failed"
+    },
+    "plan": [
+      {
+        "tool": {
+          "tool_identifier": "jenkins",
+          "configuration": {
+            "jobType": "BUILD",
+            "toolConfigId": "642fa4756736ad0088b81da8",
+            "jenkinsUrl": "https://jenkins-nekisj04.prodqa.opsera.io/",
+            "jenkinsPort": "",
+            "jUserId": "admin",
+            "jAuthToken": "",
+            "jobName": "BUILD_6221f36f1357b7001227dab2_611671e076d2187766a0b028",
+            "toolJobId": "6451715b521f1d00129f9944",
+            "toolJobType": [
+              "BUILD"
+            ],
+            "rollbackBranchName": "",
+            "stepIdXML": "",
+            "sfdcDestToolId": "",
+            "destAccountUsername": "",
+            "sfdcToolId": "",
+            "accountUsername": "",
+            "projectId": "Opsera-QA/spring-boot-hello-world-example",
+            "defaultBranch": "main",
+            "dockerName": "main",
+            "useDockerDynamicName": true,
+            "dockerDynamicName": "branch_name",
+            "dockerTagName": "195",
+            "dockerPath": "",
+            "buildType": "docker",
+            "gitToolId": "63cbe58f4541910018eb7df9",
+            "repoId": "Opsera-QA/spring-boot-hello-world-example",
+            "gitUrl": "https://github.com/Opsera-QA/spring-boot-hello-world-example",
+            "sshUrl": "git@github.com:Opsera-QA/spring-boot-hello-world-example.git",
+            "service": "github",
+            "gitCredential": "Ramya",
+            "gitUserName": "ramyaj726",
+            "repository": "spring-boot-hello-world-example",
+            "branch": "main",
+            "isOrgToOrg": false,
+            "isFullBackup": false,
+            "sfdcUnitTestType": "",
+            "workspace": "",
+            "agentLabels": "generic-linux",
+            "isNewBranch": false,
+            "isManualRollBackBranch": false,
+            "hasUpstreamBranch": false,
+            "workspaceDeleteFlag": true,
+            "gitBranch": "main",
+            "customParameters": [],
+            "terraformStepId": "",
+            "useTerraformOutput": false,
+            "job_type": "opsera-job",
+            "xcodeVersion": "",
+            "dynamicTag": true,
+            "dockerTagType": "run_count",
+            "dockerDynamicTagName": "",
+            "specifyCommitIdChar": false,
+            "commitIdCharDirection": "prefix",
+            "commitIdCharLimit": null,
+            "runtimeArguments": "",
+            "dependencyType": "",
+            "ruleIds": [],
+            "useBuildStepResource": false,
+            "buildStepId": "",
+            "commands": "",
+            "environmentVariables": [],
+            "enableQuickDeploy": false,
+            "ignoreWarning": false,
+            "filePath": "",
+            "schemeName": "",
+            "projectWorkspace": "",
+            "configurationType": "",
+            "scriptType": "opsera",
+            "developerTeamId": "",
+            "credentailsId": "",
+            "workspaceName": "",
+            "upstreamBranch": "",
+            "outputPath": "",
+            "outputFileName": "",
+            "inputFileName": "",
+            "inputFilePath": "",
+            "autoScaleEnable": true,
+            "dockerSecretKeys": [],
+            "customScript": false,
+            "inputDetails": [],
+            "jobDescription": "",
+            "buildTool": "",
+            "gradleTask": "",
+            "mavenTask": "",
+            "commandLineArgs": "",
+            "buildToolVersion": "6.3",
+            "dockerSecrets": [],
+            "gitCommitId": "057e377a73ab3f672be945f04f8d154eb46417c6",
+            "dockerRegistryName": null,
+            "customMavenSettings": false,
+            "scriptId": ""
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job_type": "opsera-job",
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "runCount": 195,
+            "action": "START",
+            "dockerName": "main",
+            "dockerTagName": "195",
+            "gitCommitId": "057e377a73ab3f672be945f04f8d154eb46417c6",
+            "hasDowloadableReport": false,
+            "status": "SUCCESS",
+            "message": "Job is Successful",
+            "buildNumber": 159,
+            "jobName": "BUILD_6221f36f1357b7001227dab2_611671e076d2187766a0b028"
+          },
+          "updatedAt": "2023-10-02T18:06:15.319Z"
+        },
+        "trigger": [],
+        "type": [
+          "build"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "pipeline",
+            "value": "build-jenkins_5ec7c8cedc73d971e2860b68"
+          }
+        ],
+        "_id": "611671e076d2187766a0b028",
+        "name": "Jenkins Build",
+        "description": "",
+        "active": true,
+        "updatedAt": "2021-08-13T13:21:36.176Z",
+        "tool_category": "build",
+        "orchestration_type": "standard"
+      },
+      {
+        "tool": {
+          "tool_identifier": "docker-push",
+          "configuration": {
+            "type": "",
+            "jobType": "DOCKER PUSH",
+            "toolConfigId": "642fa4756736ad0088b81da8",
+            "toolName": "qa_Jenkins test_DO NOT DELETE",
+            "jobName": "DOCKER PUSH_6221f36f1357b7001227dab2_6127bd6f50b345117d316713",
+            "toolJobId": "6451bb91521f1d0012a0e2eb",
+            "buildType": "docker",
+            "awsToolConfigId": "63dd161a9f49150061a0792c",
+            "agentLabels": "generic-linux",
+            "autoScaleEnable": true,
+            "newRepo": false,
+            "ecrRepoName": "test-azure-argo-kustomize",
+            "dependencyType": "",
+            "buildStepId": "611671e076d2187766a0b028",
+            "toolJobName": "Docker Push",
+            "gitToolId": "",
+            "gitUrl": "",
+            "sshUrl": "",
+            "gitCredential": "",
+            "repository": "",
+            "gitBranch": "",
+            "workspace": ""
+          },
+          "job_type": "docker push",
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "runCount": 195,
+            "action": "START",
+            "hasDowloadableReport": false,
+            "status": "SUCCESS",
+            "message": "Job is Successful",
+            "buildNumber": 82,
+            "jobName": "DOCKER PUSH_6221f36f1357b7001227dab2_6127bd6f50b345117d316713"
+          },
+          "updatedAt": "2023-10-02T18:07:18.588Z"
+        },
+        "trigger": [],
+        "type": [
+          "deploy"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "environment",
+            "value": "prod"
+          }
+        ],
+        "_id": "6127bd6f50b345117d316713",
+        "name": "ECR Push",
+        "description": "",
+        "active": true,
+        "updatedAt": "2021-08-26T16:12:31.152Z",
+        "tool_category": "deploy",
+        "orchestration_type": "standard"
+      },
+      {
+        "tool": {
+          "tool_identifier": "nexus",
+          "configuration": {
+            "groupName": "",
+            "artifactName": "",
+            "type": "push",
+            "repositoryFormat": "docker",
+            "repositoryName": "docker-repo",
+            "artifactStepId": "611671e076d2187766a0b028",
+            "customVersion": true,
+            "repositoryGroup": "docker",
+            "nexusToolConfigId": "6451aa4d3b0dea00114493fc",
+            "packageId": ":",
+            "dockerPort": "8083",
+            "toolConfigId": "642fa4756736ad0088b81da8",
+            "jobType": "NEXUS_DOCKER_PUSH",
+            "jobDescription": "",
+            "toolJobType": [
+              "DOCKER PUSH"
+            ],
+            "agentLabels": "generic-linux",
+            "jobName": "NEXUS_DOCKER_PUSH_6221f36f1357b7001227dab2_6221f393ce79b500119b772a",
+            "toolName": "qa_Jenkins test_DO NOT DELETE"
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job_type": "nexus_docker_push",
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "runCount": 195,
+            "action": "START",
+            "hasDowloadableReport": false,
+            "status": "SUCCESS",
+            "message": "Job is Successful",
+            "buildNumber": 260,
+            "jobName": "NEXUS_DOCKER_PUSH_6221f36f1357b7001227dab2_6221f393ce79b500119b772a"
+          },
+          "updatedAt": "2023-10-02T18:08:21.113Z"
+        },
+        "trigger": [],
+        "type": [
+          "publish"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "pipeline",
+            "value": "nexus-push_6221f393ce79b500119b772a"
+          }
+        ],
+        "_id": "6221f393ce79b500119b772a",
+        "name": "Nexus Push",
+        "description": "",
+        "active": true,
+        "updatedAt": "2022-03-04T11:10:11.022Z",
+        "tool_category": "publish",
+        "orchestration_type": "standard"
+      },
+      {
+        "tool": {
+          "tool_identifier": "jfrog_artifactory_docker",
+          "configuration": {
+            "jobType": "ARTIFACTORY_DOCKER_PUSH",
+            "jobName": "ARTIFACTORY_DOCKER_PUSH_6221f36f1357b7001227dab2_631e7ea56a80510018dec610",
+            "toolJobId": "6148988c98c1ee50e0504b52",
+            "toolJobType": [
+              "DOCKER PUSH"
+            ],
+            "buildStepId": "611671e076d2187766a0b028",
+            "toolJobName": "JFrogPush",
+            "toolConfigId": "60db4eac842fdc5213767cdc",
+            "jfrogToolConfigId": "631e7e6e6a80510018dec5f9",
+            "type": "REPOPATHPREFIX",
+            "port": "",
+            "repositoryName": "demo-docker-repo",
+            "jobDescription": "JFrogPush",
+            "useRepositorySubFolderName": false,
+            "repositorySubFolderName": "",
+            "agentLabels": ""
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job_type": "artifactory_docker_push",
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "runCount": 159,
+            "action": "START",
+            "status": "FAILURE",
+            "message": "Job is Failed",
+            "buildNumber": 78,
+            "jobName": "ARTIFACTORY_DOCKER_PUSH_6221f36f1357b7001227dab2_631e7ea56a80510018dec610"
+          },
+          "updatedAt": "2023-06-28T13:57:27.040Z"
+        },
+        "trigger": [],
+        "type": [
+          "publish"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "pipeline",
+            "value": "jfrog-push-new_631e7ea56a80510018dec610"
+          }
+        ],
+        "_id": "631e7ea56a80510018dec610",
+        "name": "JFrog Push new",
+        "description": "",
+        "active": false,
+        "updatedAt": "2022-09-12T00:34:45.263Z",
+        "tool_category": "publish",
+        "orchestration_type": "standard"
+      },
+      {
+        "tool": {
+          "tool_identifier": "azure_acr_push",
+          "configuration": {
+            "toolConfigId": "642fa4756736ad0088b81da8",
+            "toolName": "qa_Jenkins test_DO NOT DELETE",
+            "toolJobId": "649c253f3171680013cef3ef",
+            "jobType": "AZURE_DOCKER_PUSH",
+            "toolJobName": "ACR Push",
+            "buildType": "docker",
+            "agentLabels": "generic-linux",
+            "azureToolConfigId": "623abf2565eefe00117a1705",
+            "buildStepId": "611671e076d2187766a0b028",
+            "azureRegistryName": "jimtest",
+            "newRepo": false,
+            "azureRepoName": "test0987",
+            "useRunCount": true,
+            "resource": "https://management.azure.com",
+            "awsToolConfigId": "",
+            "ecrRepoName": "",
+            "acrLoginUrl": "jimtest.azurecr.io",
+            "autoScaleEnable": true,
+            "toolType": "azure_account",
+            "azureCredentialId": "",
+            "jobName": "AZURE_DOCKER_PUSH_6221f36f1357b7001227dab2_6221f396431aee0012b42db4"
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job_type": "azure_docker_push",
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "runCount": 195,
+            "action": "START",
+            "hasDowloadableReport": false,
+            "status": "FAILURE",
+            "message": "Job is Failed",
+            "buildNumber": 107,
+            "jobName": "AZURE_DOCKER_PUSH_6221f36f1357b7001227dab2_6221f396431aee0012b42db4"
+          },
+          "updatedAt": "2023-10-02T18:09:35.991Z"
+        },
+        "trigger": [],
+        "type": [
+          "publish"
+        ],
+        "notification": [],
+        "tags": [
+          {
+            "type": "pipeline",
+            "value": "azure-push_62728f74bb14530018a7278d"
+          }
+        ],
+        "_id": "6221f396431aee0012b42db4",
+        "name": "ACR Push",
+        "description": "",
+        "active": true,
+        "updatedAt": "2022-03-04T11:10:14.536Z",
+        "tool_category": "publish",
+        "orchestration_type": "standard"
+      },
+      {
+        "tool": {
+          "tool_identifier": "argo",
+          "configuration": {
+            "existingContent": "image",
+            "dockerStepID": "6127bd6f50b345117d316713",
+            "gitFilePath": "yaml/dev/deployment.yaml",
+            "gitRepository": "spring-boot-hello-world-example-1",
+            "defaultBranch": "test",
+            "gitWorkspace": "",
+            "type": "github",
+            "gitToolId": "631fa40702be28002de4159f",
+            "toolConfigId": "62fa762410a9fd0012795d29",
+            "toolUrl": "https://argocd-amo1.ldapowner.opsera.io/",
+            "gitUrl": "https://github.com/Opsera-QA/spring-boot-hello-world-example-1",
+            "sshUrl": "git@github.com:Opsera-QA/spring-boot-hello-world-example-1.git",
+            "userName": "admin",
+            "applicationName": "argo-rollback-github",
+            "gitRepositoryID": "Opsera-QA/spring-boot-hello-world-example-1",
+            "bitbucketWorkspace": "",
+            "bitbucketWorkspaceName": "",
+            "rollbackEnabled": false,
+            "repositoryTag": "440953937617.dkr.ecr.us-east-2.amazonaws.com/opsera-nexus-integrator:argorollbackprodtest2",
+            "dynamicVariables": false,
+            "applicationCluster": "",
+            "yamlPath": "",
+            "kustomizeFlag": false,
+            "helmFlag": false,
+            "imageUrl": "",
+            "isBlueGreenDeployment": false,
+            "dockerStepType": "docker-push",
+            "customParameterId": "",
+            "imageReference": "the-my-app1",
+            "customImageTag": false,
+            "platform": "",
+            "azureToolConfigId": "",
+            "azureCredentialId": "",
+            "resource": "https://management.azure.com",
+            "azureRegistryName": "",
+            "azureRepoName": "",
+            "acrLoginUrl": "",
+            "awsToolConfigId": "",
+            "ecrRepoName": "",
+            "imageRepository": "",
+            "imageTag": ""
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job": null
+        },
+        "last_status": {
+          "data": {
+            "metadata": {
+              "name": "springboot-nexus",
+              "namespace": "argo-upgrade",
+              "creationTimestamp": "2022-04-09T08:54:05Z",
+              "uid": "66dd8f82-2e3f-4131-8f8b-efadc34a4db4",
+              "resourceVersion": "209475654"
+            },
+            "spec": {
+              "project": "default",
+              "source": {
+                "repoURL": "https://github.com/srinivasan0505/springboot-example-new.git",
+                "targetRevision": "dev",
+                "path": "yaml/dev"
+              },
+              "destination": {
+                "namespace": "argo-upgrade",
+                "server": "https://58B947A395E8983F4116D43433BB8A0E.gr7.us-east-2.eks.amazonaws.com"
+              }
+            },
+            "status": {
+              "operationState": {
+                "operation": {
+                  "sync": {
+                    "revision": "494f968a11d9fc80659059201cbc285db135b187"
+                  }
+                },
+                "phase": "Succeeded",
+                "message": "successfully synced (all tasks run)",
+                "startedAt": "2022-04-09T12:59:45Z",
+                "finishedAt": "2022-04-09T12:59:50Z"
+              },
+              "resources": [
+                {
+                  "version": "v1",
+                  "kind": "Namespace",
+                  "name": "argocd1",
+                  "status": "Synced"
+                },
+                {
+                  "version": "v1",
+                  "kind": "Service",
+                  "namespace": "argocd",
+                  "name": "argo-demo",
+                  "status": "Synced"
+                },
+                {
+                  "group": "apps",
+                  "version": "v1",
+                  "kind": "Deployment",
+                  "namespace": "argocd",
+                  "name": "argo-demo",
+                  "status": "Synced"
+                },
+                {
+                  "group": "extensions",
+                  "version": "v1beta1",
+                  "kind": "Ingress",
+                  "namespace": "argocd",
+                  "name": "argo-demo",
+                  "status": "Synced"
+                }
+              ],
+              "sync": {
+                "revision": "494f968a11d9fc80659059201cbc285db135b187",
+                "status": "Synced"
+              }
+            }
+          },
+          "updatedAt": "2022-04-09T13:03:42.530Z"
+        },
+        "trigger": [],
+        "type": [
+          "deploy"
+        ],
+        "notification": [],
+        "tags": [],
+        "_id": "60f163f7d1796c812a570359",
+        "name": "Argo",
+        "description": "",
+        "active": true,
+        "tool_category": "deploy",
+        "orchestration_type": "standard",
+        "updatedAt": "2021-07-16T10:48:23.127Z"
+      }
+    ],
+    "run_count": 195
+  },
+  "tags": [
+    {
+      "type": "project",
+      "value": "bitbucket20mar"
+    },
+    {
+      "type": "application",
+      "value": "commerce"
+    },
+    {
+      "type": "pipeline",
+      "value": "automation"
+    }
+  ],
+  "type": [
+    "sdlc"
+  ],
+  "_id": "6221f36f1357b7001227dab2",
+  "owner": "5f75953446564c10379902bb",
+  "roles": [
+    {
+      "_id": "6221f36f1357b7001227dab6",
+      "role": "administrator",
+      "user": "qaprod@protonmail.com",
+      "group": null,
+      "createdAt": "2023-02-10T00:31:34.858Z",
+      "updatedAt": "2023-02-10T00:31:34.858Z"
+    }
+  ],
+  "organizationName": "protonmail.com",
+  "account": "org109-acc",
+  "name": "REG_Argo All Push_DO NOT DELETE",
+  "template": "60a3ebdbfe5dabcffd1ecc68",
+  "description": "Argo All Push Test Automation Regression",
+  "active": true,
+  "createdAt": "2021-05-18T16:31:36.407Z",
+  "updatedAt": "2023-10-03T09:59:04.185Z",
+  "__v": 0,
+  "owner_name": "QA User-Production"
+}
